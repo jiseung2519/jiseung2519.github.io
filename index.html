@@ -69,6 +69,10 @@ section{margin-top:64px}
 .row{display:grid;grid-template-columns:150px 1fr;gap:20px}
 .row .meta{font:13px/1.6 var(--mono);color:var(--muted)}
 .row p{margin:2px 0 0;color:var(--muted);font-size:15px}
+.video{margin:0}
+.video video{display:block;width:100%;max-width:100%;aspect-ratio:16/9;background:#000;border:1px solid var(--line)}
+.video figcaption{margin-top:10px;font-size:15px;color:var(--muted);max-width:68ch}
+.video figcaption strong{color:var(--fg)}
 .stories{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 .story{background:var(--surface);border:1px solid var(--line);padding:20px}
 .story-img{display:block;width:calc(100% + 40px);max-width:none;margin:-20px -20px 16px;aspect-ratio:8/5;object-fit:cover}
@@ -163,6 +167,17 @@ footer{margin-top:72px;padding-top:16px;border-top:1px solid var(--line);font:13
         </div>
       </article>
     </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="label">Project</span><h2>Capstone design</h2></div>
+    <figure class="video">
+      <video controls preload="metadata" playsinline poster="capstone-poster.jpg">
+        <source src="capstone.mp4" type="video/mp4">
+        The capstone demonstration video could not be played in this browser.
+      </video>
+      <figcaption><strong>Autonomous target-striking rover with a 3-DoF Stewart platform</strong> · First Prize, KAIST ME Capstone Design I, Spring 2026. Our robot drove to a target on its own, aimed with a parallel-manipulator platform, and hit a swinging bell with a flywheel launcher. Video from the KAIST Department of Mechanical Engineering.</figcaption>
+    </figure>
   </section>
 
   <section>
