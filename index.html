@@ -58,6 +58,7 @@ section{margin-top:64px}
 .proj .meta{font:13px/1.5 var(--mono);color:var(--muted)}
 .proj h3{font-size:1.15rem;margin-bottom:6px}
 .proj p{margin:0;max-width:62ch}
+.proj p+p{margin-top:10px}
 .cycle{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;counter-reset:s;list-style:none;padding:0;margin:0 0 16px}
 .cycle li{counter-increment:s;background:var(--surface);border:1px solid var(--line);padding:14px}
 .cycle li::before{content:counter(s);display:block;font:500 12px var(--mono);color:var(--accent);margin-bottom:6px}
@@ -142,7 +143,8 @@ footer{margin-top:72px;padding-top:16px;border-top:1px solid var(--line);font:13
         <div class="meta">AMSE Lab<br>Dec 2025 – present</div>
         <div>
           <h3>Porous PVA brushes for post-CMP cleaning</h3>
-          <p>A cleaning brush works only if its pores are the right size, connected, and held by walls that survive drying. I studied how our lab's starch-based synthesis forms pores and tried sugar and mannitol as alternatives. Cross-sectional SEM showed that particle-templated brushes formed weak walls that shrank during drying, which pointed to the templating method itself. I am now exploring spinodal decomposition, where pores form from within a uniform solution.</p>
+          <p>A cleaning brush works only if its pores are the right size, connected, and held by walls that survive drying. I tried sugar and mannitol as pore formers, and cross-sectional SEM showed that these particle-templated brushes formed weak walls that shrank during drying.</p>
+          <p>Looking again at our original recipe, I found that starch never acted as a template. As crosslinking proceeds, the solution separates into a stiffening PVA-rich phase and a fluid starch-rich phase, and the network is locked in place. Using the ideas of spinodal decomposition and viscoelastic phase separation, I replaced starch with a different polysaccharide and obtained open, interconnected pores of about 90 to 170 µm, close to commercial brushes. I am now working on uniformity and reproducibility.</p>
         </div>
       </article>
       <article>
